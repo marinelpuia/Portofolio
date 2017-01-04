@@ -1,0 +1,237 @@
+body {
+  font-family: arial , helvetica sans-serif;
+  line-height: 1.5;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+  background-color: silver;
+}
+/* global */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+header ul {
+  padding: 0;
+  margin: 0;
+}
+.button_1 {
+  color: white;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 30px;
+  background: orange;
+}
+.dark{
+  background: black;
+  color: white;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
+
+/* header**/
+header {
+  background: #696969;
+  color: white;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: orange 3px solid;
+  }
+header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+header #branding {
+  float: left;
+}
+header #branding h1{
+  margin: 0;
+}
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+header .highlight, header .curent a{
+  color: orange;
+  font-weight: bold;
+}
+header a:hover {
+  color: gray;
+  font-weight: bold;
+}
+/* showcase */
+#showcase {
+  min-height: 400px;
+  background: url("./img/stockfresh_id6384334_471db1.jpg"); no-repeat 0 -400px;
+  text-align:center;
+  color:white;
+}
+#showcase h1 {
+  margin-top: 100px;
+  font-size: 50px;
+  margin-bottom:10px;
+}
+#showcase p {
+  font-size: 25px;
+}
+/* newsletter */
+#newsletter {
+  padding: 15px;
+  background: #696969;
+  color: white;
+}
+#newsletter h1 {
+  float: left;
+}
+#newsletter form {
+  float: right;
+  margin-top: 15px;
+}
+#newsletter input[type="email"]{
+  padding: 4px;
+  height: 35px;
+  width: 250px;
+}
+/* boxes  */
+#boxes {
+  margin-top: 20px;
+}
+#boxes .box {
+  float: left;
+  text-align:  center;
+  width: 30%;
+  padding: 10px;
+  }
+#boxes .box img{
+  width: 90px;
+}
+/*sidebar*/
+aside#sidebar{
+  float: right;
+  width: 30%;
+  margin-top: 15px;
+}
+aside#sidebar  qoute .input , aside#sidebar  qoute .textarea {
+  width: 90%;
+  padding: 6px;
+  float: right;
+}
+/* main col */
+article#main-col{
+  float: left;
+  width: 65%;
+}
+.arnold{
+  color: white;
+  font-size: 60px;
+}
+.arnold2 {
+  color: white;
+  font-size: 35px;
+}
+/*btnlist */
+.btn-default {
+	background-color: black;
+	border-color: white;
+	color: white;
+	font-size:60px;
+	text-decoration: none;
+  	}
+    #facebookicon {
+	color:#FF8C00;
+}
+#githubicon{
+	color:#FF8C00;
+}
+#twittericon {
+	color:#FF8C00;
+}
+/* services */
+ul#services li {
+  list-style: none;
+  padding: 20px;
+  border: #cccccc solid 1px;
+  margin-bottom: 5px;
+  background: #e6e6e6;
+}
+.bmw {
+  color: #800000;
+  font-size: 45px;
+}
+.audi {
+  color: #800000;
+  font-size: 30px;
+}
+.niko{
+  text-align: center;
+}
+
+
+/* footer */
+footer {
+  padding: 10px;
+  margin-top: 20px;
+  color: white;
+  background: #696969;
+  text-align: center;
+  font-size: 25px;
+  border-top: orange 3px solid;
+}
+.samsung {
+  padding: 0 20px 0 20px 0;
+  margin: 0 20px 0 20px 0;
+}
+/* Media Queries */
+@media(max-width: 768px){
+
+  header #branding,
+   header nav,
+   header nav li,
+   #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar,
+  .niko{
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  header {
+    padding: 20px;
+  }
+  #showcase h1 {
+    margin-top: 40px;
+  }
+  #newsletter button,  .qoute button{
+    display: block;
+    width: 100%;
+  }
+  #newsletter form input[type="email"], qoute input, qoute textarea{
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .niko h1{
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .niko p {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+
+
+}
