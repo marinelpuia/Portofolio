@@ -1,2 +1,2 @@
 # Ripostory test
-Hello, this is my first ripostory! 
+Hello, this is my first repository! 
